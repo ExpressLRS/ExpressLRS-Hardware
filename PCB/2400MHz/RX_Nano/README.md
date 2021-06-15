@@ -62,6 +62,6 @@ https://youtu.be/bOKTOFyyGHo
 I made the below image as a quick reference to help when placing components.
 
 Pay attention to the crystal's placement. Orientation differs on older PCBs.
-In any case you want the crystal's pin number 1 to be grounded. 
+In any case you want the crystal's pins number 2 and 4 to be grounded. 
 
 <img src="img/build_cheat_sheet.png" width="40%">
