@@ -33,3 +33,11 @@ Upload the Gerber file to https://jlcpcb.com/RAT.  Check the price for 5, 10, an
 
 <img src="img/1.jpg" width="30%"> <img src="img/2.jpg" width="30%"> <img src="img/3.jpg" width="30%"> <img src="img/5.jpg" width="30%"> <img src="img/6.jpg" width="30%">
 <img src="img/7.jpg" width="30%"> <img src="img/8.jpg" width="30%">
+
+### I can haz RGB
+
+- Cut a single RGB LED from one of those flexible LED Strips (WS2812B RGB LED)
+- Solder the wires as shown in the picture
+- Hot glue the LED down to stop it flapping about in the breeze and potentially shorting something
+
+<img src="img/rgb-wiring.jpg" width="50%"> <img src="img/rgb-case.jpg" width="50%">
