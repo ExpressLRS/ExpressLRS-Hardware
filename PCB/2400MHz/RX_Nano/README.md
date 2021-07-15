@@ -61,4 +61,7 @@ https://youtu.be/bOKTOFyyGHo
 
 I made the below image as a quick reference to help when placing components.
 
+Pay attention to the crystal's placement. Especially if you use the smaller FW520WFMT1. On PCB v1.2 due to larger pads orientation differs from older PCBs.
+In any case you want the crystal's pins number 2 and 4 to be grounded. 
+
 <img src="img/build_cheat_sheet.png" width="40%">
