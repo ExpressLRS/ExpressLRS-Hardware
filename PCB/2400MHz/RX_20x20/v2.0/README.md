@@ -12,10 +12,11 @@ Upload the Gerber file to https://jlcpcb.com/RAT.  Check the price for 5, 10, an
 - AMS1117 3.3 Power Reg https://www.aliexpress.com/item/32910803907.html
 - ESP-01F https://www.aliexpress.com/item/32921798906.html
 - C1 3528 10uF Tantalum Capacitor
-- C2 3528 100uF Tantalum Capacitor
+- C2 3528 47uF Tantalum Capacitor
+- R1 0805 10K Resistor
+- R2 0805 10K Resistor
 - R3 0805 330R Resistor
-- R4 0805 330R Resistor
-- R5 0805 330R Resistor
+- R4 0805 270R Resistor
 - 0603 LED
 - u.fl connector https://www.aliexpress.com/item/33059352910.html
 - Button https://www.ebay.com.au/itm/10pcs-3-6-2-5mm-Tactile-Push-Button-Switch-Tact-Switch-Micro-Switch-2-Pin-SMD/282930653324?hash=item41dffb288c:g:IEoAAOSwyi1a19WD
@@ -24,8 +25,8 @@ Upload the Gerber file to https://jlcpcb.com/RAT.  Check the price for 5, 10, an
 
 - Solder the ESP-01F module.
 - Solder C1 and C2
-- Solder resistors R3 and R5
 - Solder the reg
+- Solder the 10K resistors
 - Flip the PCB and solder the ground pad under the ESP from the other side
 - Solder the SX1280
 - Solder R4 and the LED
