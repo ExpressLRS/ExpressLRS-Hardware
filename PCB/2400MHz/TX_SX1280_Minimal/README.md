@@ -22,7 +22,7 @@ Upload the Gerber file to https://jlcpcb.com/RAT.  Check the price for 5, 10, an
 - Solder the WROOM32 module
 - Solder the 10k resistor
 - Solder the capacitor
-- Flash firmware to the Module to see if the ESP32 works fine.
+- Flash firmware to the Module to see if the ESP32 works fine (Connect an FTDI to the GND=GND, 3.3=3,3V, TX=RX, RX=TX, B=GND pins on the left header and flash the DIY_2400_TX_ESP32_SX1280_E28_via_UART build in pio/eLRS Configurator )
 - Solder the e28 module. Dont forget to change the zero ohm resistor near the ufl.  Default is to use the PCB antenna, it must be repositioned to use the ufl.
 - Connect GND and 3,3 from the modules 3-pin header to the S7V8F3 regulators GND and VOUT.
 - Connect GND and VIN from the regulator and SP from the module to the modul-bay connector of the Jumper T-Lite.
