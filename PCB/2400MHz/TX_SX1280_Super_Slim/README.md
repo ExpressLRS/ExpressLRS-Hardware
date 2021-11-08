@@ -34,23 +34,24 @@ Click this image to watch a video of the building of an older version of this mo
 1. Move 0 ohm resistor on E28 to make it use the external antenna
 2. Cut trace on voltage regulator and solder 3.3V bridge (see image)
 3. Solder ESP32 and E28 to PCB
-4. Solder capacitor with stripe closer to the ESP32
-5. Solder 10k resistor
-6. Bridge the boot pads near the E28
+4. Solder 10k resistor
+6. Solder capacitor with stripe closer to the ESP32
+5. Bridge the boot pads near the E28
 7. Solder 4 pin header to ESP32 side of PCB
 8. Put voltage regulator on the pin header UPSIDE DOWN and solder
 9. Clip extra length of header pins
 10. Connect serial adapter to with the 6 pins (SET POWER TO 3.3V OR YOU WILL KILL THE ESP!)
 11. Upload your build (if it doesn't work, check for shorts, add flux and heat to solder joints)
-12. Solder wires to G, +, S on E28 side of board (If they're on the ESP side they might get in the way of the board fitting all the way inside the enclosure)
-13. Insert antenna pigtail
-14. Insert header to back of enclosure (I don't have the correct header so I had to trim mine a bit)
-15. Solder wires to the three pins on the right +, G, S from left to right
-16. Insert PCB and attach antenna pigtail
-17. Connect to handset and verify voltage from regulator is 3.3V
-18. Bridge vreg en pads
-19. Screw down cover
-20. Make sure LUA script can communicate with module
+12. Remove bridge over boot pads near E28 again (otherwise the ESP won't start correctly later)
+13. Solder wires to G, +, S on E28 side of board (If they're on the ESP side they might get in the way of the board fitting all the way inside the enclosure)
+14. Insert antenna pigtail
+15. Insert header to back of enclosure (I don't have the correct header so I had to trim mine a bit)
+16. Solder wires to the three pins on the right +, G, S from left to right
+17. Insert PCB and attach antenna pigtail
+18. Connect to handset and verify voltage from regulator is 3.3V
+19. Bridge vreg en pads
+20. Screw down cover
+21. Make sure LUA script can communicate with module
 
 ### STLs
 
