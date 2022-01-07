@@ -27,12 +27,13 @@ Upload the Gerber file to https://jlcpcb.com/RAT.  Check the price for 5, 10, an
 
 ### Build order
 
-Click this image to watch a video of the building of an older version of this module
-[![Build Video](https://github.com/SpencerGraffunder/ExpressLRS/blob/super-slim-pcb/PCB/2400MHz/TX_SX1280_Super_Slim/img/thumbnail.png?raw=true)](https://youtu.be/sNQbWaVPUCc)
+Here is a video of an older version of this module being built:
+
+https://youtu.be/sNQbWaVPUCc
 
 0. Print both STLs in the orientation shown in the image below, use light support (15%)
 1. Move 0 ohm resistor on E28 to make it use the external antenna
-2. Cut trace on voltage regulator and solder 3.3V bridge (see image)
+2. Set the regulator voltage to 3.45V by rotating the potentiometer on the top fully clockwise, and jumper both the 5V and 12V pads on the back
 3. Solder ESP32 and E28 to PCB
 4. Solder 10k resistor
 6. Solder capacitor with stripe closer to the ESP32
