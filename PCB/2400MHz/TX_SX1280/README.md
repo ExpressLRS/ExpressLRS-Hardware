@@ -41,3 +41,15 @@ Upload the Gerber file to https://jlcpcb.com/RAT.  Check the price for 5, 10, an
 - Hot glue the LED down to stop it flapping about in the breeze and potentially shorting something
 
 <img src="img/rgb-wiring.jpg" width="50%"> <img src="img/rgb-case.jpg" width="50%">
+
+### Adding an I2C OLED
+
+*Your DIY module must be running master. I2C OLED is not supported under v2.0.1.*
+
+This is tested with an I2C SSD1306 OLED display.
+
+- Attach wires to SDA, SCK, GND and 3.3v.
+- Add -DUSE_OLED_I2C to your defines.
+- The module should activate on boot.
+
+<img src="img/diy_e28_sx1280_oled.jpg" width="50%">
