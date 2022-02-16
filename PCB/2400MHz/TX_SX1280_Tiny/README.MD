@@ -45,7 +45,7 @@ https://youtu.be/8ZfG6l0pAVU
 <img src="img/reg.jpg" width="30%"> <img src="img/1.jpg" width="30%"> 
 <img src="img/2.jpg" width="30%"> <img src="img/3.jpg" width="30%">
 <img src="img/4.jpg" width="30%"> <img src="img/5.jpg" width="30%"> 
-<img src="img/6.jpg" width="30%"> <img src="img/07.jpg" width="30%"> 
+<img src="img/6.jpg" width="30%"> <img src="img/7.jpg" width="30%"> 
 
 ### Schematic and PCB layout
 
