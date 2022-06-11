@@ -62,10 +62,11 @@ This is tested with an I2C SSD1306 OLED display.
 
 build with ESP-01F:
 -use FTDI to flash HappyModel_TX_Backpack_via_UART to the ESP-01F prior to soildering onto the TX PCB (future flash via WiFi). 
-<img src="img/ESP-01F_FTDI_flash.jpg" width="50%">
+![ESP-01F_FTDI_flash](https://user-images.githubusercontent.com/22757216/173202797-8914fb75-bdcb-4325-9357-88ce9c16ecc0.jpg)
+
 
 -install ESP-01F onto TX PCB so that the corner cutout of RF shield aligns with corner cutout of silkscreen.
-<img src="img/diy_e28_sx1280-bakcpack.jpg" width="50%">
+![diy_e28_sx1280-backpack](https://user-images.githubusercontent.com/22757216/173202789-e2adfd34-812d-4d3b-a4af-165867b95eeb.jpg)
 
 -optional: add a Normally Open push button for boot mode and WiFi mode togle.
 -optional: add backpack status LED and resistor connected between pad IO16 of ESP-01F and ground.
