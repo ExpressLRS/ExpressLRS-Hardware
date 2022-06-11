@@ -53,3 +53,22 @@ This is tested with an I2C SSD1306 OLED display.
 - The module should activate on boot.
 
 <img src="img/diy_e28_sx1280_oled.jpg" width="50%">
+
+### Adding a TX backpack
+
+2.4GHz ExpressLRS EBYTE v1.0 parts:
+1x ESP-01F (ESP8285) https://www.aliexpress.com/item/2255801122884432.html
+1x 30mm wire antenna (or antenna often included with ESP-01F)
+
+build with ESP-01F:
+-use FTDI to flash HappyModel_TX_Backpack_via_UART to the ESP-01F prior to soildering onto the TX PCB (future flash via WiFi). 
+<img src="img/ESP-01F_FTDI_flash.jpg" width="50%">
+
+-install ESP-01F onto TX PCB so that the corner cutout of RF shield aligns with corner cutout of silkscreen.
+<img src="img/diy_e28_sx1280-bakcpack.jpg" width="50%">
+
+-optional: add a Normally Open push button for boot mode and WiFi mode togle.
+-optional: add backpack status LED and resistor connected between pad IO16 of ESP-01F and ground.
+-altenately: an ESP based RX can be converted for use as a TX backpack and connected to the pads circled
+
+
