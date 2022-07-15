@@ -41,4 +41,4 @@ Upload the Gerber file to https://jlcpcb.com.  Check the price for 5, 10, and 30
 
 ### Flashing 
 
-- Connect an FTDI to the GND, 3.3V, TX and RX pins on the header, then hold the boot button while powering up (or just bridge the pads), and flash the DIY_2400_RX_ESP8285_SX1280_via_UART target in the ExpressLRS Configurator or using PlatformIO
+- Connect an FTDI to the GND, 3.3V, TX and RX pins on the header, then hold the boot button while powering up (or just bridge the pads), and flash the Unified_ESP32_2400_RX_via_*** target in PlatformIO. Select the numbe front of "DIY ESP32 E28 10ch PWM RX" when requested at the end of compilation.
