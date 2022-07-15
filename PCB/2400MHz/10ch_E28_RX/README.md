@@ -1,4 +1,4 @@
-# ESP32 E28 10ch RX
+# DIY ESP32 E28 10ch RX
 
 ### PCB manufacturing
 
