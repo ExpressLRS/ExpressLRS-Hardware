@@ -36,10 +36,7 @@ Upload the Gerber file to https://jlcpcb.com/RAT.  Check the price for 5, 10, an
 
 <img src="img/top.jpeg" width="25%"> <img src="img/bottom.jpeg" width="25%"> 
 
-<img src="img/schm.PNG" width="50%">
-
-<img src="img/resistor1.png" width="25%"> <img src="img/resistor2.jpg" width="25%">
-
+<img src="img/sch.PNG" width="50%">
 
 
 ### Flashing 
