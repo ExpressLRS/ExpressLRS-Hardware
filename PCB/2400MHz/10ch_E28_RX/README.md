@@ -34,7 +34,7 @@ Upload the Gerber file to https://jlcpcb.com/RAT.  Check the price for 5, 10, an
 
 ### Schematic and PCB layout
 
-<img src="img/top.PNG" width="25%"> <img src="img/bottom.PNG" width="25%"> 
+<img src="img/top.jpeg" width="25%"> <img src="img/bottom.jpeg" width="25%"> 
 
 <img src="img/schm.PNG" width="50%">
 
