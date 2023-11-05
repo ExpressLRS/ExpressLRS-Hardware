@@ -70,3 +70,16 @@ https://youtu.be/sNQbWaVPUCc
 ### Schematic and PCB layout
 
 <img src="https://github.com/ExpressLRS/ExpressLRS-Hardware/blob/master/PCB/2400MHz/TX_SX1280_Super_Slim/img/brd.png?raw=true" width="300">
+
+
+###  Adding an I2C OLED for super slim
+Your DIY module must be running master. I2C OLED is not supported under v2.0.1.
+
+This is tested with an I2C SSD1306 OLED display.
+
+Attach wires to SDA, SCK, GND and 3.3v.
+Add -DUSE_OLED_I2C to your defines.
+The module should activate on boot.
+
+<img width="494" alt="image" src="https://user-images.githubusercontent.com/43392862/157010894-05f176a0-af13-4dab-b7fc-4191f4f429aa.png">
+
