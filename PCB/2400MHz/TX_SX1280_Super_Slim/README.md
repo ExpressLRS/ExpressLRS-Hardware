@@ -81,5 +81,5 @@ Attach wires to SDA, SCK, GND and 3.3v.
 Add -DUSE_OLED_I2C to your defines.
 The module should activate on boot.
 
-<img width="494" alt="image" src="https://user-images.githubusercontent.com/43392862/157010894-05f176a0-af13-4dab-b7fc-4191f4f429aa.png">
+<img width="494" alt="image" src="https://i.imgur.com/7yuCOUp.png">
 
